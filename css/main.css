@@ -1,0 +1,223 @@
+body{
+    /* Margen predeterminado */
+    margin: 0;
+   /* Margen pa' dentro */
+    padding: 0;
+   /* Tamaño de texto */
+    font-size: 13px;
+   /* Fuente del texto */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/**************************/
+/* NAVEGACIÓN */
+header{
+    /* with- acho / height- alto*/
+    width: 100%;
+    height: 55px;
+}
+/* meterme al elemetro padre (header) para poder meterme al otro elemento (nav) todo con la separación*/
+header nav{
+    /* Flex nos deja mover todos los elementos de nav (la lista)*/
+    display:flex; 
+    justify-content: flex-end;
+
+}
+header nav .nav-right-section{
+    /* Eliminar o cambiar viñetas de lista */ 
+    list-style: none;
+    width: 250px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    /* Altura automática*/
+    height: auto;
+}
+nav .nav-right-section a{
+    /* color de texto*/
+    color:rgb(21, 21, 21);
+    /* quitar línea de bajo de texto*/
+    text-decoration: none;
+    /* Margen derecho (ayudó a para separar elementos de lista)*/
+    margin-right: 25px;
+}
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 25px;
+    height: 25px;
+    /* Contiene a la imagen */
+    background-size: contain;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+nav .nav-right-section img{
+    margin-left: 10px;
+    border-radius: 40px;
+    margin-right: 1px;
+}
+/***********************************************************/
+/***********************************************************/
+/* MAIN*/
+/* Pimero edito toda la parte de main en general*/
+main{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Editar solo la sección del logo*/
+main .main-logo{
+width: 530px;
+margin: 0 auto;
+margin-bottom:20px ;
+}
+/* Editar propiedades del logo (imagen)*/
+main .main-logo img{
+    height: 96px;
+}
+
+/* Sección input general*/
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+/*********/ /* Caja gris redondeada que contiene al buscador*/ /*********/ 
+main .main-input-container{
+    /* Para poner el áncho de lpinea, estilo y color*/
+    border: 1px solid #dfe1e5 ;
+    /* Bordes redondeados*/
+    border-radius: 30px;
+    /* Hacer la caja más corta*/
+    width:560px ;
+}
+/* Nos permite agregar diseño al ponerl el cursor sobre el elemento*/
+main .main-input-container:hover{
+    box-shadow: 0 0 5px #20212447;
+}
+
+/*********/ /*Corregir input (donde se escribe)*/ /*********/
+main .main-input input{
+    margin: 0 auto;
+    height:45px;
+    width: 410px;
+    /*Quitar borde de la caja*/
+    border: none;
+    /* Quitar el borde que aparece al hacer click en input*/
+    outline: none;
+}
+
+/*********/ /*Colocar icono de lupita*/ /*********/
+main .main-input .search-icon{
+    /* Poner una imagen */
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    /* Centrar la imagen */
+    background-position: center;
+    /* Tamaño del ícono */
+    width: 18px;
+    background-size: contain;
+    padding-left: 10%;
+    background-repeat: no-repeat;
+}
+/*********/ /*Colocar icono de micrófono*/ /*********/
+main .main-input .micro-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    background-position: center;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    padding-left: 10%;
+    padding: 2px;
+    padding-right: 9%;
+    background-repeat: no-repeat;
+}
+/*********/ /*Colocar icono de cámara*/ /*********/
+main .main-input .cam-icon{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/2048px-Google_Lens_Icon.svg.png);
+    background-position:left;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    padding-left: 9%;
+    padding: 5px;
+    padding-right: 9%;
+    background-repeat: no-repeat; 
+}
+
+/*********/ /*Modificar botones*/ /*********/
+main .main-buttons{
+    width: 550px;
+    /* Margen vertical/ horizontal*/
+    margin: 0 auto;
+}
+main .main-buttons div{
+    /*Alinear elementos en la misma línea*/
+    display: inline-block;
+}
+main .main-buttons button{
+    border: 0;
+    height: 40px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    margin-right:10px ;
+    padding: 0 15px;
+}
+/*Cambiar sobreado e interacción de cursor con botón*/
+main .main-buttons button:hover{
+    color:#202124 ;
+    /* ancho de línea- estílo de línea- color */
+    border: 1px solid #dadce0;
+    box-shadow: 0 0 5px rgba(0,0,0,.1);
+}
+
+p{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 49px;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+/***********************************************************/
+/***********************************************************/
+/* FOOTER*/
+/* Edición general de footer (tamaño, posición)*/
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    /*Par que se quede en esa posición*/
+    position: absolute;
+    /* Para que siempre esté abajo*/
+    bottom: 0;
+    align-items: center;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: #3c4043;
+    justify-content: space-around;
+}
+
+footer .footer-left{
+    justify-content: left; 
+}
+footer .footer-right{
+    justify-content: right;
+    margin-right: 30px;
+}
