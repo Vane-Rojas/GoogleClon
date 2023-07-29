@@ -2,6 +2,10 @@
 Clonación de la Interfaz de Google usando **HTML5** y **CSS3** 
 
 ## 📚Introducción
+HTML por sus siglas en inglés _HyperText Markup_ Language es el lenguaje utilizado para crear y estructurar el contenido de una página web. Es como la columna vertebral de la página, ya que define qué elementos contiene y cómo se organizan.
+
+Por otro lado CSS del inglés _Cascading Style Sheets_, es el lenguaje de marcado que determina el aspecto con el que se visualiza el contenido de un sitio web y se utiliza para darle estilo y apariencia a la página web.
+
 Este proyecto consistió en una práctica realizada en el bootcamp de Tecnolochicas Pro, donde se analizaron los componentes de Google y se replicaron a través de tecnologías como HTML y CSS.
 
 ## 🎯Objetivo
