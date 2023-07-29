@@ -26,7 +26,7 @@ header nav{
 header nav .nav-right-section{
     /* Eliminar o cambiar viñetas de lista */ 
     list-style: none;
-    width: 250px;
+    width: 300px;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -61,25 +61,25 @@ nav .nav-right-section img{
 /* Pimero edito toda la parte de main en general*/
 main{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 /* Editar solo la sección del logo*/
 main .main-logo{
-width: 530px;
+width: 510px;
 margin: 0 auto;
 margin-bottom:20px ;
 }
 /* Editar propiedades del logo (imagen)*/
 main .main-logo img{
-    height: 96px;
+    height: 95px;
 }
 
 /* Sección input general*/
 main .main-input{
     width: 530px;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 /*********/ /* Caja gris redondeada que contiene al buscador*/ /*********/ 
@@ -172,15 +172,20 @@ main .main-buttons button:hover{
     box-shadow: 0 0 5px rgba(0,0,0,.1);
 }
 
-p{
+/******Sección arriba de footer que dice México******/
+.mexico{
     background-color: #f2f2f2;
+    color: #70757a;
     width: 100%;
-    height: 49px;
+    height: 65px;
     position: absolute;
     bottom: 30px;
-    padding-left: 40px;
     align-items: center;
     justify-content: center;
+}
+.mexico p{
+    padding-left: 30px;
+    font-size: 15px;
 }
 
 /***********************************************************/
@@ -188,36 +193,36 @@ p{
 /* FOOTER*/
 /* Edición general de footer (tamaño, posición)*/
 footer{
+    background-color: #f2f2f2;
     width: 100%;
     height: 50px;
-    background-color: #f2f2f2;
-    /*Par que se quede en esa posición*/
     position: absolute;
-    /* Para que siempre esté abajo*/
-    bottom: 0;
-    align-items: center;
-    list-style-type: none;
+    font-size: 13px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
     border-top: 1px solid #e4e4e4;
+    bottom: 0%;
 }
 
-footer ul {
+footer ul{  
+    margin: 10px;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    padding-left: 15px;
 }
-
-footer ul a{
+/***Darle formato a cada elemento de las listas***/
+footer ul li a{
+    color: #70757a;
+    margin: 10px;
     text-decoration: none;
-    color: #3c4043;
-    justify-content: space-around;
+    font-size: 15px;
 }
 
 footer .footer-left{
-    justify-content: left; 
+    justify-self: left;
 }
+
 footer .footer-right{
-    justify-content: right;
-    margin-right: 30px;
+    justify-self: right;
 }
