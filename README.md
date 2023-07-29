@@ -8,10 +8,11 @@ Este proyecto consistió en una práctica realizada en el bootcamp de Tecnolochi
 Poner en práctica los conocimientos adquiridos de **HTML** y **CSS** así como sus elementos y propiedades; así como **identificar componentes** base de un sitio web para **analizarlos y replicarlos.**
 
 ## 💻¿Qué construí?
-Se construyó una interfaz idéntica a la Google actualmente, la cual estuvo divida en 3 secciones de HTML principales:
+Se construyó una interfaz idéntica al búscador de Google, la cual está dividida en 3 secciones de HTML principales:
 
-1. Sección Header
-2. Sección Main
-3. Sección Footer
+1. **Header:** En esta apartado se encuentra la navegación principal de Google, es decir, el correo, búsqueda por imágenes, menú y foto de perfil del usuarix.
+2. **Main:** Es la sección principal ya que se encuentran los elementos cetrales y más importantes como es: el logo, íconos, barra de búsqueda y botones
+3. **Footer:** Esta sección contiene información extra con respecto a la organaización que creó el sitio e información del buscador; en este caso incluye anclas hacia los sitios web que el servidor ofrece.
 
 ## 🔍Link de la página
+https://clom-moogle.netlify.app/
